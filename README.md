@@ -3,7 +3,7 @@
 The 1901 Sanborn Fire Insurance Map of Portland, Oregon, Volume 1, georeferenced by hand, sheet by sheet, and published as
 [IIIF Georeference Annotations](https://iiif.io/api/extension/georef/) for [Allmaps](https://allmaps.org).
 
-**Map:** <https://anthonyblackham.github.io/portland-sanborn-1901/>
+**Map:** <https://anthonyblackham.com/portland-sanborn-1901/>
 
 All 119 scanned sheets are placed (sheet 67 was never scanned by the Library of Congress). Nothing is hosted here except
 the georeferencing itself: the map and every viewer that reads these files fetch the scans directly from the
@@ -20,7 +20,7 @@ the georeferencing itself: the map and every viewer that reads these files fetch
 
 Open a sheet in the Allmaps Viewer by passing its file's URL, for example sheet 79:
 
-    https://viewer.allmaps.org/?url=https://anthonyblackham.github.io/portland-sanborn-1901/annotations/sheets/sheet-079.json
+    https://viewer.allmaps.org/?url=https://anthonyblackham.com/portland-sanborn-1901/annotations/sheets/sheet-079.json
 
 The whole volume works the same way with `annotations/portland_1901_v1.iiif.json`. In code, add either file to an
 Allmaps plugin ([MapLibre](https://github.com/allmaps/allmaps/tree/main/packages/maplibre),
