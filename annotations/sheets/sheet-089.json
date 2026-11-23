@@ -1,0 +1,328 @@
+{
+ "type": "AnnotationPage",
+ "@context": "http://www.w3.org/ns/anno.jsonld",
+ "label": "Sanborn Fire Insurance Map from Portland, Oregon, 1901 Vol. 1, sheet 89",
+ "items": [
+  {
+   "id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0089/georef",
+   "type": "Annotation",
+   "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+   ],
+   "label": "Sanborn Fire Insurance Map from Portland, Multnomah County, Oregon. 1901 Vol. 1 | Sheet 89",
+   "created": "2026-11-23T09:54:03Z",
+   "modified": "2026-11-23T09:54:03Z",
+   "motivation": "georeferencing",
+   "target": {
+    "type": "SpecificResource",
+    "source": {
+     "id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0089",
+     "type": "ImageService2",
+     "width": 5854,
+     "height": 8386
+    },
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg><polygon points=\"480.8,8181.1 5290.3,8176.2 5294.6,205.1 487.8,208.2\" /></svg>"
+    }
+   },
+   "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+     "type": "helmert"
+    },
+    "features": [
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        5073.7,
+        400.2
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6944198,
+        45.5290764
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        3874.2,
+        3222.0
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.692605,
+        45.5285611
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        3484.8,
+        397.9
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6943932,
+        45.5283636
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        2265.9,
+        3223.6
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6925785,
+        45.5278482
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        1889.1,
+        396.2
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6943667,
+        45.5276507
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        666.6,
+        3228.8
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6925519,
+        45.5271354
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        5098.0,
+        3588.7
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6923913,
+        45.5291137
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        3882.3,
+        6430.6
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6905766,
+        45.5285983
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        3505.1,
+        3591.3
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6923648,
+        45.5284009
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        2281.3,
+        6437.9
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6905501,
+        45.5278855
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        1899.4,
+        3597.8
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6923383,
+        45.527688
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        680.3,
+        6442.6
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6905236,
+        45.5271726
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        5111.6,
+        6789.8
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6903629,
+        45.529151
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        3886.8,
+        8022.1
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6895624,
+        45.528617
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        3512.2,
+        6801.8
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6903364,
+        45.5284381
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        2288.1,
+        8028.5
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6895359,
+        45.5279041
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        1916.7,
+        6804.2
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6903099,
+        45.5277253
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        693.8,
+        8031.4
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6895094,
+        45.5271913
+       ]
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

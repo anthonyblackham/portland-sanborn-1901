@@ -1,0 +1,6194 @@
+{
+"type": "FeatureCollection",
+"name": "portland_sanborn_1901_v1_sheets",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"sheet": 1,
+"panel": "p1",
+"label": "top: Virginia to Macadam, Fulton / Miles / Taylor's Ferry Road (blocks 601-609)",
+"points": 3,
+"helmert_rms_ft": 1.8,
+"ft_per_px": 0.164,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-001.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0001"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6707264,
+45.4702619
+],
+[
+-122.6707158,
+45.4728033
+],
+[
+-122.6735735,
+45.4728091
+],
+[
+-122.6735839,
+45.4702678
+],
+[
+-122.6707264,
+45.4702619
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 1,
+"panel": "p2",
+"label": "bottom: Nevada to Florida, Macadam / Bond (blocks 610-615)",
+"points": 9,
+"helmert_rms_ft": 2.3,
+"ft_per_px": 0.1645,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-001.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0001"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6703936,
+45.4726162
+],
+[
+-122.6703485,
+45.4751648
+],
+[
+-122.6728105,
+45.4751863
+],
+[
+-122.6728555,
+45.4726378
+],
+[
+-122.6703936,
+45.4726162
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 2,
+"panel": "p1",
+"label": "main: Wisconsin to Virginia, Vermont to Dakota (blocks 618-624)",
+"points": 10,
+"helmert_rms_ft": 2.2,
+"ft_per_px": 0.1633,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-002.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0002"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6776421,
+45.4754248
+],
+[
+-122.6737019,
+45.4753969
+],
+[
+-122.6736642,
+45.4780252
+],
+[
+-122.6775899,
+45.478053
+],
+[
+-122.6776421,
+45.4754248
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 2,
+"panel": "p2",
+"label": "top left: Portland Clay Co. brick yard, Taylor's Ferry County Road (block 616)",
+"points": 5,
+"helmert_rms_ft": 0.0,
+"ft_per_px": 0.1625,
+"fit": "one Helmert",
+"approximate": "best guess by Claude from the index box, Riverview Abbey history and survey 35163 (clay pit on Stephens Creek); about 100-300 ft",
+"annotations": "annotations/sheets/sheet-002.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0002"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.676612,
+45.4679491
+],
+[
+-122.6769204,
+45.4670057
+],
+[
+-122.6749648,
+45.4666836
+],
+[
+-122.6746502,
+45.4676315
+],
+[
+-122.676612,
+45.4679491
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 2,
+"panel": "p3",
+"label": "top right: City Water Works, Palatine Hill pumping station (block 617)",
+"points": 5,
+"helmert_rms_ft": 0.0,
+"ft_per_px": 0.1625,
+"fit": "one Helmert",
+"approximate": "best guess by Claude: 10940 S Riverwood Rd (Palatine Hill), fitted to the 1925 shore and rail grade; about 100 ft",
+"annotations": "annotations/sheets/sheet-002.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0002"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6555805,
+45.4475779
+],
+[
+-122.6566621,
+45.4469713
+],
+[
+-122.6556082,
+45.4460385
+],
+[
+-122.654524,
+45.4466506
+],
+[
+-122.6555805,
+45.4475779
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 3,
+"panel": "",
+"label": "",
+"points": 24,
+"helmert_rms_ft": 7.8,
+"ft_per_px": 0.1629,
+"fit": "per-block Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-003.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0003"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6704967,
+45.4787529
+],
+[
+-122.6742247,
+45.4787574
+],
+[
+-122.6742338,
+45.47501
+],
+[
+-122.6705061,
+45.4750055
+],
+[
+-122.6704967,
+45.4787529
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 4,
+"panel": "p1",
+"label": "main: Jones Lumber Co. saw mill, Macadam (blocks 635-638)",
+"points": 6,
+"helmert_rms_ft": 0.3,
+"ft_per_px": 0.1611,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-004.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0004"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6737921,
+45.4805169
+],
+[
+-122.6714625,
+45.4808821
+],
+[
+-122.6721459,
+45.4830701
+],
+[
+-122.6720997,
+45.4832901
+],
+[
+-122.6710544,
+45.4834539
+],
+[
+-122.6714369,
+45.4846615
+],
+[
+-122.6749316,
+45.4841137
+],
+[
+-122.6737921,
+45.4805169
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 4,
+"panel": "p2",
+"label": "lower right: Oregon Tannery, Macadam / Bond / Carolina (block 634)",
+"points": 3,
+"helmert_rms_ft": 0.3,
+"ft_per_px": 0.1613,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-004.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0004"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6725367,
+45.4785006
+],
+[
+-122.6713713,
+45.4786857
+],
+[
+-122.6721387,
+45.4810761
+],
+[
+-122.6731845,
+45.48091
+],
+[
+-122.6732298,
+45.4806897
+],
+[
+-122.6725367,
+45.4785006
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 5,
+"panel": "",
+"label": "",
+"points": 8,
+"helmert_rms_ft": 2.1,
+"ft_per_px": 0.1634,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-005.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0005"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6765401,
+45.490959
+],
+[
+-122.6765761,
+45.4883286
+],
+[
+-122.6712325,
+45.4882923
+],
+[
+-122.6711962,
+45.4909228
+],
+[
+-122.6765401,
+45.490959
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 6,
+"panel": "p1",
+"label": "main: Macadam to the river, Lowell / Thomas (blocks 645-648, 555, 600: box factory, Powers furniture, Dorrance saw mill)",
+"points": 4,
+"helmert_rms_ft": 1.9,
+"ft_per_px": 0.1633,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-006.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0006"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6731942,
+45.4917578
+],
+[
+-122.6693968,
+45.4916971
+],
+[
+-122.6688538,
+45.4931853
+],
+[
+-122.6678081,
+45.4931635
+],
+[
+-122.6677714,
+45.4942985
+],
+[
+-122.6731094,
+45.4943839
+],
+[
+-122.6731942,
+45.4917578
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 6,
+"panel": "p2",
+"label": "lower left: Macadam strip by the S.P. main track (block 644)",
+"points": 5,
+"helmert_rms_ft": 0.5,
+"ft_per_px": 0.16,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-006.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0006"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6729888,
+45.4920931
+],
+[
+-122.6734854,
+45.490639
+],
+[
+-122.6719905,
+45.490633
+],
+[
+-122.6719787,
+45.492084
+],
+[
+-122.6729888,
+45.4920931
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 7,
+"panel": "",
+"label": "",
+"points": 23,
+"helmert_rms_ft": 3.8,
+"ft_per_px": 0.1628,
+"fit": "per-block Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-007.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0007"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.675912,
+45.4944869
+],
+[
+-122.6796359,
+45.4945092
+],
+[
+-122.679681,
+45.4907651
+],
+[
+-122.6759574,
+45.4907428
+],
+[
+-122.675912,
+45.4944869
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 8,
+"panel": "",
+"label": "",
+"points": 9,
+"helmert_rms_ft": 1.0,
+"ft_per_px": 0.1631,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-008.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0008"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6727625,
+45.4944294
+],
+[
+-122.6764923,
+45.4944654
+],
+[
+-122.6765653,
+45.4907154
+],
+[
+-122.6728358,
+45.4906794
+],
+[
+-122.6727625,
+45.4944294
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 9,
+"panel": "p1",
+"label": "main: Ohio to Corbett, Seymour / Jasper Pl. / First / Front / Mabel (blocks 662-666, 4204, 4209)",
+"points": 4,
+"helmert_rms_ft": 1.9,
+"ft_per_px": 0.1622,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-009.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0009"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6811941,
+45.489405
+],
+[
+-122.6758907,
+45.4893368
+],
+[
+-122.6758505,
+45.4908807
+],
+[
+-122.6791959,
+45.4909291
+],
+[
+-122.6791683,
+45.4919891
+],
+[
+-122.6811263,
+45.4920143
+],
+[
+-122.6811941,
+45.489405
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 9,
+"panel": "p2",
+"label": "right box: West / Illinois / Hamilton Av / Hamilton Pl. (blocks 667-670)",
+"points": 10,
+"helmert_rms_ft": 17.2,
+"ft_per_px": 0.1655,
+"fit": "per-block Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-009.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0009"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6841287,
+45.4901921
+],
+[
+-122.6807311,
+45.4901503
+],
+[
+-122.6807078,
+45.4912263
+],
+[
+-122.6841056,
+45.4912626
+],
+[
+-122.6841287,
+45.4901921
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 10,
+"panel": "p1",
+"label": "upper: Hood / Macadam to Moody, Thomas to Gaines (blocks 671-676)",
+"points": 5,
+"helmert_rms_ft": 0.5,
+"ft_per_px": 0.1638,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-010.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0010"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6740662,
+45.494056
+],
+[
+-122.6719237,
+45.4940168
+],
+[
+-122.6718261,
+45.4966514
+],
+[
+-122.6739687,
+45.4966907
+],
+[
+-122.6740662,
+45.494056
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 10,
+"panel": "p2",
+"label": "lower: Kelly / Hood / Macadam to Moody, Gaines to Whittaker (blocks 677-685)",
+"points": 16,
+"helmert_rms_ft": 8.9,
+"ft_per_px": 0.1666,
+"fit": "per-block Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-010.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0010"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6750192,
+45.4961896
+],
+[
+-122.6717705,
+45.49612
+],
+[
+-122.6716543,
+45.4987989
+],
+[
+-122.6749032,
+45.4988685
+],
+[
+-122.6750192,
+45.4961896
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 11,
+"panel": "",
+"label": "",
+"points": 24,
+"helmert_rms_ft": 2.1,
+"ft_per_px": 0.1621,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-011.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0011"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6790963,
+45.4968191
+],
+[
+-122.6791807,
+45.4942111
+],
+[
+-122.6738795,
+45.4941262
+],
+[
+-122.6737949,
+45.4967342
+],
+[
+-122.6790963,
+45.4968191
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 12,
+"panel": "",
+"label": "",
+"points": 28,
+"helmert_rms_ft": 2.2,
+"ft_per_px": 0.1625,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-012.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0012"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6800224,
+45.4989422
+],
+[
+-122.6801111,
+45.496329
+],
+[
+-122.6747991,
+45.4962397
+],
+[
+-122.6747101,
+45.4988529
+],
+[
+-122.6800224,
+45.4989422
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 13,
+"panel": "",
+"label": "",
+"points": 4,
+"helmert_rms_ft": 1.3,
+"ft_per_px": 0.1628,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-013.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0013"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6819486,
+45.5011495
+],
+[
+-122.6820819,
+45.4985316
+],
+[
+-122.6767601,
+45.4983974
+],
+[
+-122.6766266,
+45.5010153
+],
+[
+-122.6819486,
+45.5011495
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 14,
+"panel": "",
+"label": "",
+"points": 10,
+"helmert_rms_ft": 1.6,
+"ft_per_px": 0.163,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-014.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0014"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.676902,
+45.5010364
+],
+[
+-122.6770171,
+45.4984156
+],
+[
+-122.6716895,
+45.4982997
+],
+[
+-122.6715741,
+45.5009205
+],
+[
+-122.676902,
+45.5010364
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 15,
+"panel": "",
+"label": "",
+"points": 11,
+"helmert_rms_ft": 1.7,
+"ft_per_px": 0.1626,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-015.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0015"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6796158,
+45.5044701
+],
+[
+-122.6833346,
+45.5045081
+],
+[
+-122.6834119,
+45.5007698
+],
+[
+-122.6796934,
+45.5007318
+],
+[
+-122.6796158,
+45.5044701
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 16,
+"panel": "",
+"label": "",
+"points": 7,
+"helmert_rms_ft": 1.6,
+"ft_per_px": 0.1622,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-016.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0016"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6795644,
+45.5080218
+],
+[
+-122.683276,
+45.5080791
+],
+[
+-122.6833924,
+45.5043483
+],
+[
+-122.6796811,
+45.504291
+],
+[
+-122.6795644,
+45.5080218
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 17,
+"panel": "",
+"label": "",
+"points": 24,
+"helmert_rms_ft": 2.7,
+"ft_per_px": 0.163,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-017.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0017"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6802517,
+45.5032484
+],
+[
+-122.6803097,
+45.5006269
+],
+[
+-122.6749803,
+45.5005684
+],
+[
+-122.6749221,
+45.50319
+],
+[
+-122.6802517,
+45.5032484
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 18,
+"panel": "p1",
+"label": "main: Corbett / Hood / Moody, Baker to Woods (blocks 781-788, 791)",
+"points": 7,
+"helmert_rms_ft": 1.2,
+"ft_per_px": 0.1628,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-018.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0018"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6756912,
+45.500666
+],
+[
+-122.6720785,
+45.5006321
+],
+[
+-122.6720356,
+45.5028869
+],
+[
+-122.6730261,
+45.5028962
+],
+[
+-122.6731788,
+45.5035496
+],
+[
+-122.6733366,
+45.5036024
+],
+[
+-122.6734816,
+45.5036596
+],
+[
+-122.6738117,
+45.5036627
+],
+[
+-122.6741157,
+45.5043756
+],
+[
+-122.6756206,
+45.5043897
+],
+[
+-122.6756912,
+45.500666
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 18,
+"panel": "p2",
+"label": "top right: Marquam Hill Road / Fifth / Sheridan (block 789, 790 quarry)",
+"points": 3,
+"helmert_rms_ft": 0.5,
+"ft_per_px": 0.1617,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-018.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0018"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6849647,
+45.5046425
+],
+[
+-122.6846368,
+45.5046382
+],
+[
+-122.6844933,
+45.5045809
+],
+[
+-122.684337,
+45.5045278
+],
+[
+-122.6841902,
+45.5038783
+],
+[
+-122.6832066,
+45.5038655
+],
+[
+-122.683168,
+45.5053241
+],
+[
+-122.6852613,
+45.5053516
+],
+[
+-122.6849647,
+45.5046425
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 19,
+"panel": "",
+"label": "",
+"points": 14,
+"helmert_rms_ft": 2.7,
+"ft_per_px": 0.1625,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-019.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0019"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6798895,
+45.5053821
+],
+[
+-122.6799434,
+45.5027687
+],
+[
+-122.6746304,
+45.5027144
+],
+[
+-122.6745763,
+45.5053278
+],
+[
+-122.6798895,
+45.5053821
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 20,
+"panel": "",
+"label": "",
+"points": 10,
+"helmert_rms_ft": 2.4,
+"ft_per_px": 0.1621,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-020.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0020"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6798864,
+45.5074122
+],
+[
+-122.6799341,
+45.5048041
+],
+[
+-122.6746317,
+45.504756
+],
+[
+-122.6745837,
+45.5073641
+],
+[
+-122.6798864,
+45.5074122
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 21,
+"panel": "",
+"label": "",
+"points": 12,
+"helmert_rms_ft": 1.6,
+"ft_per_px": 0.1619,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-021.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0021"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6829615,
+45.50884
+],
+[
+-122.686665,
+45.50891
+],
+[
+-122.6868072,
+45.5051873
+],
+[
+-122.6831039,
+45.5051173
+],
+[
+-122.6829615,
+45.50884
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 22,
+"panel": "p1",
+"label": "main: 14th to 11th, Montgomery to Clifton (blocks 90-100)",
+"points": 3,
+"helmert_rms_ft": 0.5,
+"ft_per_px": 0.1631,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-022.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0022"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6918052,
+45.5111492
+],
+[
+-122.6906447,
+45.5108403
+],
+[
+-122.691039,
+45.5101081
+],
+[
+-122.6888133,
+45.5095156
+],
+[
+-122.6869342,
+45.5130051
+],
+[
+-122.6903205,
+45.5139065
+],
+[
+-122.6918052,
+45.5111492
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 22,
+"panel": "p2",
+"label": "bottom left: Lownsdale / 14th, Hall to College (block 89)",
+"points": 3,
+"helmert_rms_ft": 0.6,
+"ft_per_px": 0.1637,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-022.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0022"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6923833,
+45.5120164
+],
+[
+-122.6912172,
+45.5117095
+],
+[
+-122.6908255,
+45.5124453
+],
+[
+-122.6919916,
+45.5127522
+],
+[
+-122.6923833,
+45.5120164
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 23,
+"panel": "",
+"label": "",
+"points": 10,
+"helmert_rms_ft": 1.3,
+"ft_per_px": 0.1625,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-023.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0023"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6964056,
+45.5101626
+],
+[
+-122.6998854,
+45.511086
+],
+[
+-122.7017626,
+45.5075882
+],
+[
+-122.698283,
+45.506665
+],
+[
+-122.6964056,
+45.5101626
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 24,
+"panel": "",
+"label": "",
+"points": 25,
+"helmert_rms_ft": 5.0,
+"ft_per_px": 0.1618,
+"fit": "per-block Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-024.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0024"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6932992,
+45.5093352
+],
+[
+-122.6967581,
+45.5102649
+],
+[
+-122.6986482,
+45.5067881
+],
+[
+-122.6951894,
+45.5058584
+],
+[
+-122.6932992,
+45.5093352
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 25,
+"panel": "",
+"label": "",
+"points": 14,
+"helmert_rms_ft": 2.3,
+"ft_per_px": 0.1621,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-025.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0025"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6954744,
+45.5137467
+],
+[
+-122.698937,
+45.5146811
+],
+[
+-122.7008368,
+45.5112009
+],
+[
+-122.6973744,
+45.5102666
+],
+[
+-122.6954744,
+45.5137467
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 26,
+"panel": "",
+"label": "",
+"points": 12,
+"helmert_rms_ft": 3.0,
+"ft_per_px": 0.1612,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-026.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0026"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6924737,
+45.5129212
+],
+[
+-122.6959109,
+45.5138626
+],
+[
+-122.697825,
+45.5104079
+],
+[
+-122.694388,
+45.5094665
+],
+[
+-122.6924737,
+45.5129212
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 27,
+"panel": "",
+"label": "",
+"points": 12,
+"helmert_rms_ft": 1.3,
+"ft_per_px": 0.1626,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-027.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0027"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.7006125,
+45.5214486
+],
+[
+-122.7006298,
+45.5188328
+],
+[
+-122.6953102,
+45.5188153
+],
+[
+-122.6952927,
+45.5214311
+],
+[
+-122.7006125,
+45.5214486
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 28,
+"panel": "",
+"label": "",
+"points": 9,
+"helmert_rms_ft": 1.6,
+"ft_per_px": 0.1624,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-028.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0028"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.7005966,
+45.5238099
+],
+[
+-122.7006353,
+45.5211974
+],
+[
+-122.6953222,
+45.5211584
+],
+[
+-122.6952833,
+45.5237709
+],
+[
+-122.7005966,
+45.5238099
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 29,
+"panel": "p1",
+"label": "main: Market St / Market St Drive, Jefferson to Chapman (blocks 2491-2499)",
+"points": 3,
+"helmert_rms_ft": 0.8,
+"ft_per_px": 0.1639,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-029.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0029"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6965452,
+45.51749
+],
+[
+-122.6963667,
+45.5171122
+],
+[
+-122.6967335,
+45.5164381
+],
+[
+-122.6934756,
+45.5155617
+],
+[
+-122.6921658,
+45.517968
+],
+[
+-122.6971478,
+45.5193082
+],
+[
+-122.6979341,
+45.5178636
+],
+[
+-122.6965452,
+45.51749
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 30,
+"panel": "p1",
+"label": "main: Jefferson to Salmon, King to Chapman (blocks 2502-2511)",
+"points": 3,
+"helmert_rms_ft": 1.0,
+"ft_per_px": 0.1631,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-030.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0030"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6925714,
+45.5177519
+],
+[
+-122.6912676,
+45.5201305
+],
+[
+-122.6955834,
+45.5212994
+],
+[
+-122.6956088,
+45.5212344
+],
+[
+-122.6956618,
+45.5199932
+],
+[
+-122.695958,
+45.5200063
+],
+[
+-122.6965961,
+45.518842
+],
+[
+-122.6925714,
+45.5177519
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 30,
+"panel": "p2",
+"label": "top: Fleischman's and Adams' slaughterhouses, St. Helens Co. Road (blocks 2500, 2501)",
+"points": 5,
+"helmert_rms_ft": 0.0,
+"ft_per_px": 0.1625,
+"fit": "one Helmert",
+"approximate": "placed by Claude on the USGS 1896 sheet (St. Helens Road by Guild's Lake); about 50 ft across the road, 200 ft or more along it",
+"annotations": "annotations/sheets/sheet-030.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0030"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.7266545,
+45.5467364
+],
+[
+-122.7253104,
+45.5475452
+],
+[
+-122.7250594,
+45.5474352
+],
+[
+-122.7241767,
+45.5485062
+],
+[
+-122.7241107,
+45.5485547
+],
+[
+-122.7245521,
+45.5489169
+],
+[
+-122.7272982,
+45.5472644
+],
+[
+-122.7266545,
+45.5467364
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 31,
+"panel": "p1",
+"label": "main: King / 21st, Washington to Salmon (blocks 2514-2517)",
+"points": 7,
+"helmert_rms_ft": 4.7,
+"ft_per_px": 0.1605,
+"fit": "per-block Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-031.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0031"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6958375,
+45.5209825
+],
+[
+-122.6942896,
+45.5205755
+],
+[
+-122.6928528,
+45.5232752
+],
+[
+-122.6929496,
+45.5232818
+],
+[
+-122.6950749,
+45.5233953
+],
+[
+-122.6954814,
+45.523257
+],
+[
+-122.6958375,
+45.5209825
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 31,
+"panel": "p2",
+"label": "top: Weber Bros. Fulton Tannery, Macadam Road (block 2512)",
+"points": 2,
+"helmert_rms_ft": 0.0,
+"ft_per_px": 0.1754,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-031.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0031"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6720105,
+45.4691934
+],
+[
+-122.6714088,
+45.4683493
+],
+[
+-122.671016,
+45.4681394
+],
+[
+-122.6701215,
+45.4666273
+],
+[
+-122.6700828,
+45.4665577
+],
+[
+-122.6688667,
+45.4666542
+],
+[
+-122.6693078,
+45.4694077
+],
+[
+-122.6720105,
+45.4691934
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 31,
+"panel": "p3",
+"label": "lower left: Multnomah Co. Hospital and Poor Farm (block 2513)",
+"points": 5,
+"helmert_rms_ft": 0.0,
+"ft_per_px": 0.1625,
+"fit": "one Helmert",
+"approximate": "placed by Claude from the 1925 aerial (Washington Park loop drive and surviving buildings); about 50-150 ft",
+"annotations": "annotations/sheets/sheet-031.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0031"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.717485,
+45.5082853
+],
+[
+-122.7174307,
+45.5068953
+],
+[
+-122.7142595,
+45.5075263
+],
+[
+-122.7147211,
+45.5083387
+],
+[
+-122.717485,
+45.5082853
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 32,
+"panel": "",
+"label": "",
+"points": 4,
+"helmert_rms_ft": 2.8,
+"ft_per_px": 0.1622,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-032.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0032"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6892862,
+45.5231842
+],
+[
+-122.6927451,
+45.5241236
+],
+[
+-122.6946576,
+45.5206435
+],
+[
+-122.6911989,
+45.5197042
+],
+[
+-122.6892862,
+45.5231842
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 33,
+"panel": "",
+"label": "",
+"points": 6,
+"helmert_rms_ft": 2.2,
+"ft_per_px": 0.164,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-033.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0033"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6946126,
+45.5159504
+],
+[
+-122.6959381,
+45.5134859
+],
+[
+-122.6909209,
+45.5121521
+],
+[
+-122.6895953,
+45.5146165
+],
+[
+-122.6946126,
+45.5159504
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 34,
+"panel": "",
+"label": "",
+"points": 9,
+"helmert_rms_ft": 1.5,
+"ft_per_px": 0.1628,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-034.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0034"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6935383,
+45.5179494
+],
+[
+-122.6948754,
+45.5155083
+],
+[
+-122.6899057,
+45.5141627
+],
+[
+-122.6885684,
+45.5166038
+],
+[
+-122.6935383,
+45.5179494
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 35,
+"panel": "",
+"label": "",
+"points": 8,
+"helmert_rms_ft": 0.7,
+"ft_per_px": 0.1627,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-035.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0035"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6921198,
+45.5198891
+],
+[
+-122.6934455,
+45.5174462
+],
+[
+-122.688472,
+45.5161122
+],
+[
+-122.6871461,
+45.518555
+],
+[
+-122.6921198,
+45.5198891
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 36,
+"panel": "",
+"label": "",
+"points": 12,
+"helmert_rms_ft": 1.2,
+"ft_per_px": 0.1627,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-036.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0036"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6911011,
+45.5218431
+],
+[
+-122.6924423,
+45.5194053
+],
+[
+-122.6874789,
+45.5180558
+],
+[
+-122.6861375,
+45.5204935
+],
+[
+-122.6911011,
+45.5218431
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 37,
+"panel": "",
+"label": "",
+"points": 3,
+"helmert_rms_ft": 0.6,
+"ft_per_px": 0.1618,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-037.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0037"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6898555,
+45.523945
+],
+[
+-122.6911878,
+45.5215198
+],
+[
+-122.6862501,
+45.5201792
+],
+[
+-122.6849176,
+45.5226043
+],
+[
+-122.6898555,
+45.523945
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 38,
+"panel": "p1",
+"label": "main: Stark to Pine, 10th to 6th, Park blocks (points on the jp2, 2026-11-19)",
+"points": 3,
+"helmert_rms_ft": 0.3,
+"ft_per_px": 0.1626,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-038.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0038"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6821718,
+45.5220145
+],
+[
+-122.6772223,
+45.5206453
+],
+[
+-122.6758614,
+45.5230761
+],
+[
+-122.6794886,
+45.5240795
+],
+[
+-122.6794607,
+45.52317
+],
+[
+-122.6815435,
+45.5231368
+],
+[
+-122.6821718,
+45.5220145
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 38,
+"panel": "p2",
+"label": "top right: block 87, Stark / 11th / Burnside / 10th",
+"points": 4,
+"helmert_rms_ft": 1.4,
+"ft_per_px": 0.1639,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-038.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0038"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6828337,
+45.5219599
+],
+[
+-122.6807591,
+45.5220082
+],
+[
+-122.6807982,
+45.5229176
+],
+[
+-122.68212,
+45.5232727
+],
+[
+-122.6828337,
+45.5219599
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 39,
+"panel": "p1",
+"label": "upper: 11th / 10th / Clifton / Jackson / College to W. Park (blocks 2546-2550, 336, 337, reservoir)",
+"points": 6,
+"helmert_rms_ft": 0.8,
+"ft_per_px": 0.1627,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-039.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0039"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6895047,
+45.5087094
+],
+[
+-122.6865024,
+45.5078951
+],
+[
+-122.686482,
+45.5092998
+],
+[
+-122.6858312,
+45.5105153
+],
+[
+-122.6881665,
+45.5111487
+],
+[
+-122.6895047,
+45.5087094
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 39,
+"panel": "p2",
+"label": "lower: Grant / Lincoln / 2nd / 1st / Front to Hall (blocks 2551, 2552, 121, 122)",
+"points": 7,
+"helmert_rms_ft": 2.2,
+"ft_per_px": 0.1619,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-039.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0039"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6798363,
+45.5084762
+],
+[
+-122.6798581,
+45.5070785
+],
+[
+-122.6779173,
+45.5065509
+],
+[
+-122.6765832,
+45.5089771
+],
+[
+-122.6791875,
+45.5096851
+],
+[
+-122.6798363,
+45.5084762
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 40,
+"panel": "p1",
+"label": "upper: 11th to W. Park, College to Montgomery (blocks 333-335, 338-340)",
+"points": 8,
+"helmert_rms_ft": 1.3,
+"ft_per_px": 0.1637,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-040.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0040"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6884107,
+45.5107026
+],
+[
+-122.6860608,
+45.510074
+],
+[
+-122.6847302,
+45.5125328
+],
+[
+-122.6870802,
+45.5131614
+],
+[
+-122.6884107,
+45.5107026
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 40,
+"panel": "p2",
+"label": "lower: 2nd to Front, Hall to Mill (blocks 118-120, 123-125, Portland Sanitarium)",
+"points": 8,
+"helmert_rms_ft": 2.3,
+"ft_per_px": 0.1641,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-040.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0040"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6795445,
+45.5090894
+],
+[
+-122.6769026,
+45.5083711
+],
+[
+-122.6755494,
+45.5108312
+],
+[
+-122.6781915,
+45.5115495
+],
+[
+-122.6795445,
+45.5090894
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 41,
+"panel": "",
+"label": "",
+"points": 12,
+"helmert_rms_ft": 1.5,
+"ft_per_px": 0.1634,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-041.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0041"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6813169,
+45.5114851
+],
+[
+-122.684804,
+45.5124244
+],
+[
+-122.6867159,
+45.5089151
+],
+[
+-122.6832289,
+45.5079759
+],
+[
+-122.6813169,
+45.5114851
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 42,
+"panel": "",
+"label": "",
+"points": 8,
+"helmert_rms_ft": 1.4,
+"ft_per_px": 0.1627,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-042.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0042"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6781967,
+45.5107488
+],
+[
+-122.6816821,
+45.5116601
+],
+[
+-122.6835371,
+45.5081526
+],
+[
+-122.6800519,
+45.5072413
+],
+[
+-122.6781967,
+45.5107488
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 43,
+"panel": "",
+"label": "",
+"points": 5,
+"helmert_rms_ft": 0.8,
+"ft_per_px": 0.1622,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-043.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0043"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6728888,
+45.509966
+],
+[
+-122.6763335,
+45.5109275
+],
+[
+-122.6782908,
+45.5074609
+],
+[
+-122.6748462,
+45.5064994
+],
+[
+-122.6728888,
+45.509966
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 44,
+"panel": "p1",
+"label": "main: Multnomah Box, Star Box and Portland Lumbering mills (blocks 810, 811)",
+"points": 5,
+"helmert_rms_ft": 0.4,
+"ft_per_px": 0.1609,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-044.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0044"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6751433,
+45.5066212
+],
+[
+-122.6731477,
+45.5060784
+],
+[
+-122.6725797,
+45.5066402
+],
+[
+-122.6724034,
+45.5066305
+],
+[
+-122.6718132,
+45.5064743
+],
+[
+-122.6716157,
+45.506026
+],
+[
+-122.6699021,
+45.5091409
+],
+[
+-122.6732555,
+45.510053
+],
+[
+-122.6751433,
+45.5066212
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 44,
+"panel": "p2",
+"label": "bottom right: Portland Lumber & Mfg. Co.'s shipping wharf",
+"points": 3,
+"helmert_rms_ft": 0.2,
+"ft_per_px": 0.161,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-044.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0044"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6706418,
+45.5058663
+],
+[
+-122.6704632,
+45.5061824
+],
+[
+-122.670655,
+45.5066324
+],
+[
+-122.6712438,
+45.5067926
+],
+[
+-122.6714203,
+45.5068034
+],
+[
+-122.6719962,
+45.5062447
+],
+[
+-122.6706418,
+45.5058663
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 45,
+"panel": "",
+"label": "",
+"points": 15,
+"helmert_rms_ft": 2.1,
+"ft_per_px": 0.1626,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-045.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0045"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6850231,
+45.5162964
+],
+[
+-122.6884906,
+45.5172388
+],
+[
+-122.690409,
+45.5137496
+],
+[
+-122.6869417,
+45.5128073
+],
+[
+-122.6850231,
+45.5162964
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 46,
+"panel": "",
+"label": "",
+"points": 15,
+"helmert_rms_ft": 2.2,
+"ft_per_px": 0.1625,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-046.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0046"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6822493,
+45.5155594
+],
+[
+-122.6857148,
+45.516499
+],
+[
+-122.6876275,
+45.5130119
+],
+[
+-122.6841622,
+45.5120723
+],
+[
+-122.6822493,
+45.5155594
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 47,
+"panel": "",
+"label": "",
+"points": 36,
+"helmert_rms_ft": 31.3,
+"ft_per_px": 0.1487,
+"fit": "per-block Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-047.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0047"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6799199,
+45.5144038
+],
+[
+-122.6831006,
+45.5152481
+],
+[
+-122.6848192,
+45.5120473
+],
+[
+-122.6816386,
+45.5112031
+],
+[
+-122.6799199,
+45.5144038
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 48,
+"panel": "",
+"label": "",
+"points": 36,
+"helmert_rms_ft": 30.8,
+"ft_per_px": 0.1497,
+"fit": "per-block Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-048.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0048"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6768858,
+45.513561
+],
+[
+-122.6800814,
+45.514423
+],
+[
+-122.681836,
+45.5112073
+],
+[
+-122.6786406,
+45.5103454
+],
+[
+-122.6768858,
+45.513561
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 49,
+"panel": "",
+"label": "",
+"points": 15,
+"helmert_rms_ft": 1.4,
+"ft_per_px": 0.1626,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-049.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0049"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6832075,
+45.5196377
+],
+[
+-122.6866839,
+45.5205621
+],
+[
+-122.6885657,
+45.5170642
+],
+[
+-122.6850895,
+45.5161399
+],
+[
+-122.6832075,
+45.5196377
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 50,
+"panel": "",
+"label": "",
+"points": 20,
+"helmert_rms_ft": 1.2,
+"ft_per_px": 0.163,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-050.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0050"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.680448,
+45.5188854
+],
+[
+-122.6839285,
+45.5198215
+],
+[
+-122.6858343,
+45.5163194
+],
+[
+-122.6823539,
+45.5153833
+],
+[
+-122.680448,
+45.5188854
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 51,
+"panel": "",
+"label": "",
+"points": 24,
+"helmert_rms_ft": 29.8,
+"ft_per_px": 0.1491,
+"fit": "per-block Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-051.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0051"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6784705,
+45.5170189
+],
+[
+-122.6816556,
+45.5178733
+],
+[
+-122.6833949,
+45.5146683
+],
+[
+-122.6802099,
+45.513814
+],
+[
+-122.6784705,
+45.5170189
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 52,
+"panel": "",
+"label": "",
+"points": 24,
+"helmert_rms_ft": 30.5,
+"ft_per_px": 0.1497,
+"fit": "per-block Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-052.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0052"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.675415,
+45.5162373
+],
+[
+-122.67861,
+45.5170966
+],
+[
+-122.6803593,
+45.5138817
+],
+[
+-122.6771645,
+45.5130224
+],
+[
+-122.675415,
+45.5162373
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 53,
+"panel": "",
+"label": "",
+"points": 3,
+"helmert_rms_ft": 1.2,
+"ft_per_px": 0.1626,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-053.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0053"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6815116,
+45.5228351
+],
+[
+-122.6849968,
+45.5237611
+],
+[
+-122.6868774,
+45.5202635
+],
+[
+-122.6833923,
+45.5193375
+],
+[
+-122.6815116,
+45.5228351
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 54,
+"panel": "",
+"label": "",
+"points": 24,
+"helmert_rms_ft": 25.3,
+"ft_per_px": 0.1355,
+"fit": "per-block Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-054.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0054"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6792797,
+45.5216928
+],
+[
+-122.6821782,
+45.5224756
+],
+[
+-122.6837678,
+45.5195667
+],
+[
+-122.6808694,
+45.518784
+],
+[
+-122.6792797,
+45.5216928
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 55,
+"panel": "",
+"label": "",
+"points": 24,
+"helmert_rms_ft": 29.7,
+"ft_per_px": 0.149,
+"fit": "per-block Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-055.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0055"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6807001,
+45.5198331
+],
+[
+-122.6819307,
+45.5175935
+],
+[
+-122.6773826,
+45.5163582
+],
+[
+-122.6761518,
+45.5185979
+],
+[
+-122.6807001,
+45.5198331
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 56,
+"panel": "",
+"label": "",
+"points": 16,
+"helmert_rms_ft": 33.3,
+"ft_per_px": 0.1236,
+"fit": "per-block Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-056.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0056"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.673905,
+45.5229856
+],
+[
+-122.6765702,
+45.5236617
+],
+[
+-122.6779433,
+45.520987
+],
+[
+-122.6752781,
+45.520311
+],
+[
+-122.673905,
+45.5229856
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 57,
+"panel": "",
+"label": "",
+"points": 24,
+"helmert_rms_ft": 58.1,
+"ft_per_px": 0.1257,
+"fit": "per-block Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-057.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0057"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6743974,
+45.5134103
+],
+[
+-122.6770719,
+45.5141215
+],
+[
+-122.6785271,
+45.5114167
+],
+[
+-122.6758527,
+45.5107055
+],
+[
+-122.6743974,
+45.5134103
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 58,
+"panel": "",
+"label": "",
+"points": 6,
+"helmert_rms_ft": 0.6,
+"ft_per_px": 0.1621,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-058.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0058"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6715288,
+45.5130641
+],
+[
+-122.6750108,
+45.5139753
+],
+[
+-122.6768609,
+45.5104804
+],
+[
+-122.6733791,
+45.5095692
+],
+[
+-122.6715288,
+45.5130641
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 59,
+"panel": "",
+"label": "",
+"points": 12,
+"helmert_rms_ft": 54.2,
+"ft_per_px": 0.1041,
+"fit": "per-block Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-059.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0059"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6735382,
+45.5155528
+],
+[
+-122.6757663,
+45.5161536
+],
+[
+-122.6769863,
+45.5139172
+],
+[
+-122.6747582,
+45.5133164
+],
+[
+-122.6735382,
+45.5155528
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 60,
+"panel": "p1",
+"label": "upper: Jefferson to Salmon on Front, to the river (blocks 71-73, Madison St bridge)",
+"points": 12,
+"helmert_rms_ft": 0.5,
+"ft_per_px": 0.164,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-060.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0060"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6755315,
+45.5133734
+],
+[
+-122.6728486,
+45.5126657
+],
+[
+-122.6715281,
+45.5151399
+],
+[
+-122.6742111,
+45.5158477
+],
+[
+-122.6755315,
+45.5133734
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 60,
+"panel": "p2",
+"label": "lower: Salmon to Morrison on Front, to the river (blocks 74-76)",
+"points": 12,
+"helmert_rms_ft": 0.7,
+"ft_per_px": 0.1634,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-060.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0060"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6744387,
+45.515379
+],
+[
+-122.6721278,
+45.5147602
+],
+[
+-122.6707952,
+45.5172198
+],
+[
+-122.6731062,
+45.5178386
+],
+[
+-122.6744387,
+45.515379
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 61,
+"panel": "p1",
+"label": "left: Morrison to Oak on Front, to the river (blocks 77-80)",
+"points": 15,
+"helmert_rms_ft": 0.9,
+"ft_per_px": 0.1616,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-061.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0061"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6713713,
+45.5206416
+],
+[
+-122.6732744,
+45.5171743
+],
+[
+-122.6716606,
+45.5167365
+],
+[
+-122.6697573,
+45.5202038
+],
+[
+-122.6713713,
+45.5206416
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 61,
+"panel": "p2",
+"label": "right: Oak to Ankeny on Front, to the river (blocks 81-83)",
+"points": 10,
+"helmert_rms_ft": 0.6,
+"ft_per_px": 0.162,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-061.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0061"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6700301,
+45.5231941
+],
+[
+-122.6719411,
+45.519719
+],
+[
+-122.6701043,
+45.5192198
+],
+[
+-122.6681932,
+45.5226949
+],
+[
+-122.6700301,
+45.5231941
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 62,
+"panel": "p1",
+"label": "main: N. Front riverfront, Glisan to Davis (blocks 53, 505-507, 521)",
+"points": 23,
+"helmert_rms_ft": 4.3,
+"ft_per_px": 0.1623,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-062.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0062"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6720176,
+45.5280833
+],
+[
+-122.6719447,
+45.5243501
+],
+[
+-122.6682246,
+45.5243859
+],
+[
+-122.6682498,
+45.5256787
+],
+[
+-122.6697216,
+45.5256645
+],
+[
+-122.6697692,
+45.528105
+],
+[
+-122.6720176,
+45.5280833
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 62,
+"panel": "p2",
+"label": "top right: Davis to Ankeny on N. Front (blocks 501-503, Burnside bridge)",
+"points": 12,
+"helmert_rms_ft": 0.8,
+"ft_per_px": 0.1627,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-062.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0062"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6706322,
+45.5247871
+],
+[
+-122.6705746,
+45.5223477
+],
+[
+-122.6691086,
+45.5223648
+],
+[
+-122.6691661,
+45.5248042
+],
+[
+-122.6706322,
+45.5247871
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 63,
+"panel": "",
+"label": "",
+"points": 12,
+"helmert_rms_ft": 53.0,
+"ft_per_px": 0.1064,
+"fit": "per-block Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-063.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0063"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6743012,
+45.5180856
+],
+[
+-122.6765615,
+45.5186934
+],
+[
+-122.6778054,
+45.5164071
+],
+[
+-122.6755453,
+45.5157993
+],
+[
+-122.6743012,
+45.5180856
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 64,
+"panel": "",
+"label": "",
+"points": 12,
+"helmert_rms_ft": 54.5,
+"ft_per_px": 0.1044,
+"fit": "per-block Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-064.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0064"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6724703,
+45.5175688
+],
+[
+-122.6746877,
+45.5181662
+],
+[
+-122.6759103,
+45.5159231
+],
+[
+-122.673693,
+45.5153257
+],
+[
+-122.6724703,
+45.5175688
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 65,
+"panel": "",
+"label": "",
+"points": 12,
+"helmert_rms_ft": 52.2,
+"ft_per_px": 0.1058,
+"fit": "per-block Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-065.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0065"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6773455,
+45.5211667
+],
+[
+-122.6795942,
+45.521769
+],
+[
+-122.680827,
+45.5194944
+],
+[
+-122.6785784,
+45.5188921
+],
+[
+-122.6773455,
+45.5211667
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 66,
+"panel": "",
+"label": "",
+"points": 12,
+"helmert_rms_ft": 52.3,
+"ft_per_px": 0.1059,
+"fit": "per-block Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-066.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0066"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6753401,
+45.5206402
+],
+[
+-122.6776042,
+45.5212343
+],
+[
+-122.6788164,
+45.5189516
+],
+[
+-122.6765523,
+45.5183575
+],
+[
+-122.6753401,
+45.5206402
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 68,
+"panel": "",
+"label": "",
+"points": 12,
+"helmert_rms_ft": 52.6,
+"ft_per_px": 0.105,
+"fit": "per-block Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-068.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0068"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6713897,
+45.5195706
+],
+[
+-122.6736272,
+45.5201698
+],
+[
+-122.6748496,
+45.5179139
+],
+[
+-122.6726122,
+45.5173146
+],
+[
+-122.6713897,
+45.5195706
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 69,
+"panel": "",
+"label": "",
+"points": 12,
+"helmert_rms_ft": 52.0,
+"ft_per_px": 0.1068,
+"fit": "per-block Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-069.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0069"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6721892,
+45.5221096
+],
+[
+-122.6744667,
+45.5227176
+],
+[
+-122.6757071,
+45.5204214
+],
+[
+-122.6734296,
+45.5198135
+],
+[
+-122.6721892,
+45.5221096
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 70,
+"panel": "",
+"label": "",
+"points": 12,
+"helmert_rms_ft": 51.9,
+"ft_per_px": 0.1052,
+"fit": "per-block Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-070.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0070"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6703339,
+45.5215944
+],
+[
+-122.6726016,
+45.5221477
+],
+[
+-122.6737304,
+45.5198612
+],
+[
+-122.6714626,
+45.519308
+],
+[
+-122.6703339,
+45.5215944
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 71,
+"panel": "",
+"label": "",
+"points": 19,
+"helmert_rms_ft": 42.7,
+"ft_per_px": 0.1171,
+"fit": "per-block Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-071.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0071"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6720774,
+45.5246996
+],
+[
+-122.6747394,
+45.5246316
+],
+[
+-122.6746,
+45.5219399
+],
+[
+-122.6719382,
+45.522008
+],
+[
+-122.6720774,
+45.5246996
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 72,
+"panel": "",
+"label": "",
+"points": 20,
+"helmert_rms_ft": 42.0,
+"ft_per_px": 0.1337,
+"fit": "per-block Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-072.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0072"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6699108,
+45.5246398
+],
+[
+-122.6729607,
+45.5246004
+],
+[
+-122.6728802,
+45.5215256
+],
+[
+-122.6698304,
+45.521565
+],
+[
+-122.6699108,
+45.5246398
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 73,
+"panel": "",
+"label": "",
+"points": 23,
+"helmert_rms_ft": 30.4,
+"ft_per_px": 0.141,
+"fit": "per-block Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-073.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0073"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6714719,
+45.527647
+],
+[
+-122.6746883,
+45.5275869
+],
+[
+-122.6745655,
+45.5243444
+],
+[
+-122.6713493,
+45.5244046
+],
+[
+-122.6714719,
+45.527647
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 74,
+"panel": "",
+"label": "",
+"points": 8,
+"helmert_rms_ft": 11.5,
+"ft_per_px": 0.1592,
+"fit": "per-block Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-074.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0074"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.7100086,
+45.5370035
+],
+[
+-122.7098341,
+45.5344535
+],
+[
+-122.7046301,
+45.5346292
+],
+[
+-122.7048043,
+45.5371793
+],
+[
+-122.7100086,
+45.5370035
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 75,
+"panel": "",
+"label": "",
+"points": 9,
+"helmert_rms_ft": 1.1,
+"ft_per_px": 0.1635,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-075.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0075"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6983325,
+45.5270071
+],
+[
+-122.702063,
+45.5269632
+],
+[
+-122.7019733,
+45.5232024
+],
+[
+-122.698243,
+45.5232463
+],
+[
+-122.6983325,
+45.5270071
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 76,
+"panel": "",
+"label": "",
+"points": 12,
+"helmert_rms_ft": 8.5,
+"ft_per_px": 0.1638,
+"fit": "per-block Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-076.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0076"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.7037576,
+45.5290567
+],
+[
+-122.7036772,
+45.5264313
+],
+[
+-122.6983201,
+45.5265122
+],
+[
+-122.6984003,
+45.5291376
+],
+[
+-122.7037576,
+45.5290567
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 77,
+"panel": "",
+"label": "",
+"points": 12,
+"helmert_rms_ft": 2.0,
+"ft_per_px": 0.1632,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-077.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0077"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.7038774,
+45.5313907
+],
+[
+-122.703764,
+45.528774
+],
+[
+-122.6984245,
+45.5288882
+],
+[
+-122.6985377,
+45.5315049
+],
+[
+-122.7038774,
+45.5313907
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 78,
+"panel": "",
+"label": "",
+"points": 12,
+"helmert_rms_ft": 1.2,
+"ft_per_px": 0.163,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-078.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0078"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.703924,
+45.5334775
+],
+[
+-122.7038328,
+45.5308646
+],
+[
+-122.6985008,
+45.5309564
+],
+[
+-122.6985918,
+45.5335693
+],
+[
+-122.703924,
+45.5334775
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 79,
+"panel": "",
+"label": "",
+"points": 15,
+"helmert_rms_ft": 1.4,
+"ft_per_px": 0.1621,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-079.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0079"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.7015413,
+45.5369342
+],
+[
+-122.7052333,
+45.5368867
+],
+[
+-122.7051362,
+45.5331596
+],
+[
+-122.7014445,
+45.533207
+],
+[
+-122.7015413,
+45.5369342
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 80,
+"panel": "",
+"label": "",
+"points": 18,
+"helmert_rms_ft": 1.8,
+"ft_per_px": 0.1621,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-080.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0080"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6985885,
+45.5370078
+],
+[
+-122.7022788,
+45.5369358
+],
+[
+-122.7021317,
+45.5332103
+],
+[
+-122.6984417,
+45.5332822
+],
+[
+-122.6985885,
+45.5370078
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 81,
+"panel": "",
+"label": "",
+"points": 6,
+"helmert_rms_ft": 0.8,
+"ft_per_px": 0.1619,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-081.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0081"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6990555,
+45.5253464
+],
+[
+-122.6989953,
+45.5227545
+],
+[
+-122.6936985,
+45.5228152
+],
+[
+-122.6937585,
+45.5254071
+],
+[
+-122.6990555,
+45.5253464
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 82,
+"panel": "",
+"label": "",
+"points": 12,
+"helmert_rms_ft": 2.0,
+"ft_per_px": 0.1629,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-082.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0082"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6991211,
+45.5271331
+],
+[
+-122.6990363,
+45.5245257
+],
+[
+-122.6937078,
+45.5246112
+],
+[
+-122.6937923,
+45.5272186
+],
+[
+-122.6991211,
+45.5271331
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 83,
+"panel": "",
+"label": "",
+"points": 12,
+"helmert_rms_ft": 1.1,
+"ft_per_px": 0.1624,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-083.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0083"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6992294,
+45.5292889
+],
+[
+-122.6991323,
+45.5266825
+],
+[
+-122.6938203,
+45.5267801
+],
+[
+-122.6939172,
+45.5293866
+],
+[
+-122.6992294,
+45.5292889
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 84,
+"panel": "",
+"label": "",
+"points": 12,
+"helmert_rms_ft": 1.5,
+"ft_per_px": 0.1624,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-084.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0084"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6992835,
+45.5314526
+],
+[
+-122.6992043,
+45.5288457
+],
+[
+-122.693891,
+45.5289253
+],
+[
+-122.6939699,
+45.5315323
+],
+[
+-122.6992835,
+45.5314526
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 85,
+"panel": "",
+"label": "",
+"points": 12,
+"helmert_rms_ft": 1.7,
+"ft_per_px": 0.1624,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-085.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0085"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6993557,
+45.5336351
+],
+[
+-122.6992831,
+45.5310285
+],
+[
+-122.6939704,
+45.5311016
+],
+[
+-122.6940428,
+45.5337081
+],
+[
+-122.6993557,
+45.5336351
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 86,
+"panel": "",
+"label": "",
+"points": 12,
+"helmert_rms_ft": 1.9,
+"ft_per_px": 0.1627,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-086.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0086"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6994485,
+45.5356785
+],
+[
+-122.6993441,
+45.5330681
+],
+[
+-122.6940233,
+45.5331731
+],
+[
+-122.6941275,
+45.5357835
+],
+[
+-122.6994485,
+45.5356785
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 87,
+"panel": "",
+"label": "",
+"points": 12,
+"helmert_rms_ft": 1.3,
+"ft_per_px": 0.1623,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-087.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0087"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.694503,
+45.5252115
+],
+[
+-122.6944306,
+45.5226066
+],
+[
+-122.6891221,
+45.5226794
+],
+[
+-122.6891942,
+45.5252843
+],
+[
+-122.694503,
+45.5252115
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 88,
+"panel": "",
+"label": "",
+"points": 18,
+"helmert_rms_ft": 1.2,
+"ft_per_px": 0.1626,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-088.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0088"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6945935,
+45.5272316
+],
+[
+-122.6944992,
+45.5246225
+],
+[
+-122.689182,
+45.5247173
+],
+[
+-122.689276,
+45.5273264
+],
+[
+-122.6945935,
+45.5272316
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 89,
+"panel": "",
+"label": "",
+"points": 18,
+"helmert_rms_ft": 1.1,
+"ft_per_px": 0.1625,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-089.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0089"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6946773,
+45.5294147
+],
+[
+-122.6945956,
+45.5268059
+],
+[
+-122.6892786,
+45.526888
+],
+[
+-122.6893601,
+45.5294968
+],
+[
+-122.6946773,
+45.5294147
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 90,
+"panel": "",
+"label": "",
+"points": 18,
+"helmert_rms_ft": 1.1,
+"ft_per_px": 0.1628,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-090.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0090"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6947147,
+45.5314935
+],
+[
+-122.6946226,
+45.5288798
+],
+[
+-122.6892956,
+45.5289724
+],
+[
+-122.6893875,
+45.5315861
+],
+[
+-122.6947147,
+45.5314935
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 91,
+"panel": "",
+"label": "",
+"points": 18,
+"helmert_rms_ft": 1.4,
+"ft_per_px": 0.1631,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-091.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0091"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6948128,
+45.5337183
+],
+[
+-122.6947326,
+45.5311009
+],
+[
+-122.6893977,
+45.5311816
+],
+[
+-122.6894777,
+45.533799
+],
+[
+-122.6948128,
+45.5337183
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 92,
+"panel": "",
+"label": "",
+"points": 18,
+"helmert_rms_ft": 1.4,
+"ft_per_px": 0.1629,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-092.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0092"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6948857,
+45.5357965
+],
+[
+-122.6948111,
+45.5331813
+],
+[
+-122.6894807,
+45.5332563
+],
+[
+-122.689555,
+45.5358714
+],
+[
+-122.6948857,
+45.5357965
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 93,
+"panel": "",
+"label": "",
+"points": 30,
+"helmert_rms_ft": 1.4,
+"ft_per_px": 0.1627,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-093.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0093"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6894581,
+45.5252564
+],
+[
+-122.6893538,
+45.5226446
+],
+[
+-122.6840312,
+45.5227494
+],
+[
+-122.6841352,
+45.5253613
+],
+[
+-122.6894581,
+45.5252564
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 94,
+"panel": "",
+"label": "",
+"points": 30,
+"helmert_rms_ft": 2.7,
+"ft_per_px": 0.163,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-094.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0094"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6885032,
+45.5273499
+],
+[
+-122.6883918,
+45.5247343
+],
+[
+-122.6830611,
+45.5248463
+],
+[
+-122.6831723,
+45.527462
+],
+[
+-122.6885032,
+45.5273499
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 95,
+"panel": "",
+"label": "",
+"points": 30,
+"helmert_rms_ft": 1.8,
+"ft_per_px": 0.1625,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-095.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0095"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6843357,
+45.5253359
+],
+[
+-122.6842651,
+45.5227274
+],
+[
+-122.6789493,
+45.5227984
+],
+[
+-122.6790196,
+45.5254069
+],
+[
+-122.6843357,
+45.5253359
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 96,
+"panel": "",
+"label": "",
+"points": 30,
+"helmert_rms_ft": 1.7,
+"ft_per_px": 0.1626,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-096.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0096"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6844295,
+45.5273948
+],
+[
+-122.6843093,
+45.5247856
+],
+[
+-122.6789918,
+45.5249065
+],
+[
+-122.6791118,
+45.5275157
+],
+[
+-122.6844295,
+45.5273948
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 97,
+"panel": "",
+"label": "",
+"points": 30,
+"helmert_rms_ft": 1.8,
+"ft_per_px": 0.1623,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-097.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0097"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6794095,
+45.5254086
+],
+[
+-122.6793298,
+45.522803
+],
+[
+-122.6740198,
+45.5228831
+],
+[
+-122.6740993,
+45.5254887
+],
+[
+-122.6794095,
+45.5254086
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 98,
+"panel": "",
+"label": "",
+"points": 30,
+"helmert_rms_ft": 1.6,
+"ft_per_px": 0.163,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-098.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0098"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6794651,
+45.5274551
+],
+[
+-122.6793251,
+45.5248399
+],
+[
+-122.6739953,
+45.5249807
+],
+[
+-122.674135,
+45.5275959
+],
+[
+-122.6794651,
+45.5274551
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 99,
+"panel": "",
+"label": "",
+"points": 30,
+"helmert_rms_ft": 2.1,
+"ft_per_px": 0.1632,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-099.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0099"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6860612,
+45.530806
+],
+[
+-122.6897878,
+45.5307473
+],
+[
+-122.689668,
+45.5269952
+],
+[
+-122.6859417,
+45.5270539
+],
+[
+-122.6860612,
+45.530806
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 100,
+"panel": "",
+"label": "",
+"points": 30,
+"helmert_rms_ft": 1.3,
+"ft_per_px": 0.1625,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-100.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0100"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6831773,
+45.5308645
+],
+[
+-122.6868981,
+45.5308014
+],
+[
+-122.6867698,
+45.5270658
+],
+[
+-122.6830492,
+45.5271289
+],
+[
+-122.6831773,
+45.5308645
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 101,
+"panel": "",
+"label": "",
+"points": 30,
+"helmert_rms_ft": 4.3,
+"ft_per_px": 0.1624,
+"fit": "per-block Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-101.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0101"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6800395,
+45.5309181
+],
+[
+-122.6837396,
+45.5308477
+],
+[
+-122.6835958,
+45.5271147
+],
+[
+-122.679896,
+45.527185
+],
+[
+-122.6800395,
+45.5309181
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 102,
+"panel": "",
+"label": "",
+"points": 9,
+"helmert_rms_ft": 1.5,
+"ft_per_px": 0.1629,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-102.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0102"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6772332,
+45.5309717
+],
+[
+-122.6809463,
+45.5309091
+],
+[
+-122.6808184,
+45.527163
+],
+[
+-122.6771056,
+45.5272256
+],
+[
+-122.6772332,
+45.5309717
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 103,
+"panel": "",
+"label": "",
+"points": 7,
+"helmert_rms_ft": 1.3,
+"ft_per_px": 0.1636,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-103.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0103"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6744212,
+45.531057
+],
+[
+-122.6781483,
+45.5309808
+],
+[
+-122.6779925,
+45.5272205
+],
+[
+-122.6742656,
+45.5272967
+],
+[
+-122.6744212,
+45.531057
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 104,
+"panel": "",
+"label": "",
+"points": 7,
+"helmert_rms_ft": 2.9,
+"ft_per_px": 0.1632,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-104.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0104"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6711913,
+45.5310864
+],
+[
+-122.6749091,
+45.5310122
+],
+[
+-122.6747574,
+45.5272612
+],
+[
+-122.6710398,
+45.5273354
+],
+[
+-122.6711913,
+45.5310864
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 105,
+"panel": "",
+"label": "",
+"points": 30,
+"helmert_rms_ft": 1.1,
+"ft_per_px": 0.1625,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-105.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0105"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6861977,
+45.534374
+],
+[
+-122.6899025,
+45.534314
+],
+[
+-122.6897799,
+45.5305764
+],
+[
+-122.6860752,
+45.5306364
+],
+[
+-122.6861977,
+45.534374
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 106,
+"panel": "",
+"label": "",
+"points": 30,
+"helmert_rms_ft": 2.2,
+"ft_per_px": 0.1633,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-106.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0106"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6833099,
+45.5344385
+],
+[
+-122.6870296,
+45.5343382
+],
+[
+-122.6868247,
+45.5305857
+],
+[
+-122.6831053,
+45.5306859
+],
+[
+-122.6833099,
+45.5344385
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 107,
+"panel": "",
+"label": "",
+"points": 25,
+"helmert_rms_ft": 1.9,
+"ft_per_px": 0.1624,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-107.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0107"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6800807,
+45.5344918
+],
+[
+-122.6837829,
+45.5344265
+],
+[
+-122.6836494,
+45.5306916
+],
+[
+-122.6799474,
+45.5307569
+],
+[
+-122.6800807,
+45.5344918
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 108,
+"panel": "",
+"label": "",
+"points": 7,
+"helmert_rms_ft": 0.8,
+"ft_per_px": 0.1628,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-108.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0108"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6769377,
+45.5345282
+],
+[
+-122.6806465,
+45.5344458
+],
+[
+-122.6804782,
+45.5307042
+],
+[
+-122.6767696,
+45.5307866
+],
+[
+-122.6769377,
+45.5345282
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 109,
+"panel": "p1",
+"label": "left: N. Front and the Willamette bank (blocks 874-876)",
+"points": 5,
+"helmert_rms_ft": 0.6,
+"ft_per_px": 0.1617,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-109.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0109"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6812023,
+45.5335709
+],
+[
+-122.6801223,
+45.5344695
+],
+[
+-122.6840754,
+45.5369134
+],
+[
+-122.6852238,
+45.5359577
+],
+[
+-122.6812023,
+45.5335709
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 109,
+"panel": "p2",
+"label": "top right: N. 13th / Savier / Raleigh / N. 12th to N. Front (blocks 879, 880)",
+"points": 5,
+"helmert_rms_ft": 0.5,
+"ft_per_px": 0.1638,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-109.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0109"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6851528,
+45.5345954
+],
+[
+-122.6835953,
+45.533635
+],
+[
+-122.6823758,
+45.5346522
+],
+[
+-122.6839601,
+45.5355903
+],
+[
+-122.6851528,
+45.5345954
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 109,
+"panel": "p3",
+"label": "bottom right: N. Front on the river, Star Sand Co. (blocks 877, 878)",
+"points": 3,
+"helmert_rms_ft": 0.3,
+"ft_per_px": 0.1609,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-109.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0109"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6873631,
+45.5373325
+],
+[
+-122.6849658,
+45.5358388
+],
+[
+-122.6837188,
+45.5368683
+],
+[
+-122.6861581,
+45.5383274
+],
+[
+-122.6873631,
+45.5373325
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 110,
+"panel": "",
+"label": "",
+"points": 24,
+"helmert_rms_ft": 2.4,
+"ft_per_px": 0.1636,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-110.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0110"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6898509,
+45.5366372
+],
+[
+-122.6897419,
+45.5340198
+],
+[
+-122.6843893,
+45.5341298
+],
+[
+-122.6844981,
+45.5367473
+],
+[
+-122.6898509,
+45.5366372
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 111,
+"panel": "",
+"label": "",
+"points": 49,
+"helmert_rms_ft": 4.6,
+"ft_per_px": 0.1628,
+"fit": "per-block Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-111.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0111"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6967438,
+45.5391656
+],
+[
+-122.7004512,
+45.5391151
+],
+[
+-122.7003477,
+45.5353707
+],
+[
+-122.6966406,
+45.5354213
+],
+[
+-122.6967438,
+45.5391656
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 112,
+"panel": "",
+"label": "",
+"points": 24,
+"helmert_rms_ft": 2.2,
+"ft_per_px": 0.1634,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-112.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0112"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6936372,
+45.5392276
+],
+[
+-122.697358,
+45.5391595
+],
+[
+-122.6972186,
+45.5354017
+],
+[
+-122.6934981,
+45.5354698
+],
+[
+-122.6936372,
+45.5392276
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 113,
+"panel": "",
+"label": "",
+"points": 14,
+"helmert_rms_ft": 1.5,
+"ft_per_px": 0.1638,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-113.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0113"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6894176,
+45.5393028
+],
+[
+-122.6931463,
+45.5392379
+],
+[
+-122.6930136,
+45.535472
+],
+[
+-122.689285,
+45.5355368
+],
+[
+-122.6894176,
+45.5393028
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 114,
+"panel": "",
+"label": "",
+"points": 5,
+"helmert_rms_ft": 0.8,
+"ft_per_px": 0.1636,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-114.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0114"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6863245,
+45.5399691
+],
+[
+-122.6900492,
+45.5399183
+],
+[
+-122.689945,
+45.5361566
+],
+[
+-122.6862206,
+45.5362074
+],
+[
+-122.6863245,
+45.5399691
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 115,
+"panel": "",
+"label": "",
+"points": 9,
+"helmert_rms_ft": 1.4,
+"ft_per_px": 0.1628,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-115.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0115"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6937323,
+45.5426942
+],
+[
+-122.6974386,
+45.5426077
+],
+[
+-122.6972617,
+45.5388648
+],
+[
+-122.6935556,
+45.5389512
+],
+[
+-122.6937323,
+45.5426942
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 116,
+"panel": "",
+"label": "",
+"points": 4,
+"helmert_rms_ft": 1.0,
+"ft_per_px": 0.1629,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-116.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0116"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.690547,
+45.5427415
+],
+[
+-122.6942561,
+45.5426743
+],
+[
+-122.6941186,
+45.5389284
+],
+[
+-122.6904097,
+45.5389956
+],
+[
+-122.690547,
+45.5427415
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 117,
+"panel": "",
+"label": "",
+"points": 8,
+"helmert_rms_ft": 1.4,
+"ft_per_px": 0.1637,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-117.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0117"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.7005475,
+45.5444242
+],
+[
+-122.7029893,
+45.5424439
+],
+[
+-122.6989393,
+45.5399779
+],
+[
+-122.6964974,
+45.5419581
+],
+[
+-122.7005475,
+45.5444242
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 118,
+"panel": "p1",
+"label": "main: Sherlock Av riverfront (blocks 2695-2698)",
+"points": 3,
+"helmert_rms_ft": 1.0,
+"ft_per_px": 0.1639,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-118.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0118"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.7007448,
+45.5442419
+],
+[
+-122.6967744,
+45.5417375
+],
+[
+-122.6957615,
+45.5425303
+],
+[
+-122.6978767,
+45.5438827
+],
+[
+-122.6978583,
+45.5442336
+],
+[
+-122.6972676,
+45.5446825
+],
+[
+-122.6972389,
+45.5451356
+],
+[
+-122.697,
+45.5453226
+],
+[
+-122.6983093,
+45.5461484
+],
+[
+-122.7007448,
+45.5442419
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 118,
+"panel": "p2",
+"label": "lower right: St. Helens Road / Guild / Reed / N. 24th / Dover (blocks 2699, 846-849)",
+"points": 5,
+"helmert_rms_ft": 1.0,
+"ft_per_px": 0.1633,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-118.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0118"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6994219,
+45.5399948
+],
+[
+-122.6999105,
+45.5402884
+],
+[
+-122.70005,
+45.5408894
+],
+[
+-122.7004307,
+45.5411147
+],
+[
+-122.7032381,
+45.5407767
+],
+[
+-122.7028659,
+45.5393093
+],
+[
+-122.6993594,
+45.5397484
+],
+[
+-122.6994219,
+45.5399948
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 119,
+"panel": "",
+"label": "",
+"points": 4,
+"helmert_rms_ft": 0.4,
+"ft_per_px": 0.1619,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-119.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0119"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.6983828,
+45.5456942
+],
+[
+-122.7011638,
+45.5473874
+],
+[
+-122.7046347,
+45.5445727
+],
+[
+-122.7018537,
+45.5428796
+],
+[
+-122.6983828,
+45.5456942
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 120,
+"panel": "p1",
+"label": "main: Vaughn to Franklin, Rugby to N. 31st (points on the jp2, 2026-11-21)",
+"points": 9,
+"helmert_rms_ft": 1.3,
+"ft_per_px": 0.1629,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-120.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0120"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.7172213,
+45.5366418
+],
+[
+-122.7171292,
+45.5350504
+],
+[
+-122.7154092,
+45.5350816
+],
+[
+-122.7153219,
+45.5329461
+],
+[
+-122.7133381,
+45.5330028
+],
+[
+-122.7135547,
+45.5367466
+],
+[
+-122.7172213,
+45.5366418
+]
+]
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"sheet": 120,
+"panel": "p2",
+"label": "lower left: Raleigh / N. 29th / Savier (blocks 2700-2703)",
+"points": 3,
+"helmert_rms_ft": 0.6,
+"ft_per_px": 0.1634,
+"fit": "one Helmert",
+"approximate": "",
+"annotations": "annotations/sheets/sheet-120.json",
+"iiif_image": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0120"
+},
+"geometry": {
+"type": "Polygon",
+"coordinates": [
+[
+[
+-122.7125124,
+45.5345618
+],
+[
+-122.7124702,
+45.53336
+],
+[
+-122.7094134,
+45.5334453
+],
+[
+-122.7094798,
+45.5346209
+],
+[
+-122.7125124,
+45.5345618
+]
+]
+]
+}
+}
+]
+}

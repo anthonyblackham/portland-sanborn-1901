@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portland Sanborn 1901</title>
+<meta name="description" content="The 1901 Sanborn fire insurance atlas of Portland, Oregon (Vol. 1), georeferenced by hand and warped live from the Library of Congress scans with Allmaps.">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@6.7.0/dist/maplibre-gl.css">
+<style>
+  :root {
+    --bg: #f7f4ee; --panel: #fffdf8; --ink: #1d1b18; --muted: #6b655c; --line: #ddd5c8;
+    --accent: #b5462b; --one: #2b6cb0; --blocks: #7a3fb0; --approx: #c47a00;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #161513; --panel: #201e1b; --ink: #ece7df; --muted: #a39b8f; --line: #3a3631;
+      --accent: #e0775b; --one: #6aa7ec; --blocks: #b48ae6; --approx: #f0a83c; color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #161513; --panel: #201e1b; --ink: #ece7df; --muted: #a39b8f; --line: #3a3631;
+    --accent: #e0775b; --one: #6aa7ec; --blocks: #b48ae6; --approx: #f0a83c; color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--ink);
+    font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  #map { position: absolute; inset: 0; }
+  .card { position: absolute; top: 12px; left: 12px; width: min(340px, calc(100% - 24px));
+    background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px;
+    box-shadow: 0 4px 18px rgba(0,0,0,.12); z-index: 2; }
+  .card h1 { font-size: 18px; margin: 0 0 4px; letter-spacing: .01em; }
+  .card p { margin: 0 0 10px; color: var(--muted); font-size: 13.5px; }
+  .card a { color: var(--accent); }
+  .row { display: flex; align-items: center; gap: 10px; margin: 8px 0; font-size: 13.5px; }
+  .row input[type=range] { flex: 1; accent-color: var(--accent); }
+  .legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 12.5px; color: var(--muted); margin-top: 6px; }
+  .legend i { display: inline-block; width: 12px; height: 12px; border: 2px solid; border-radius: 2px; vertical-align: -2px; margin-right: 5px; }
+  details summary { cursor: pointer; font-size: 13px; color: var(--muted); }
+  #status { font-size: 12.5px; color: var(--muted); }
+  .maplibregl-popup-content { background: var(--panel); color: var(--ink); border-radius: 8px; font-size: 13.5px; max-width: 290px; }
+  .maplibregl-popup-tip { border-top-color: var(--panel) !important; border-bottom-color: var(--panel) !important; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; }
+  .pop .meta { color: var(--muted); margin: 4px 0 8px; }
+  .pop .warn { color: var(--approx); margin: 6px 0; }
+  .pop a { color: var(--accent); margin-right: 12px; }
+  @media (max-width: 600px) { .card { top: auto; bottom: 12px; } .card .hide-sm { display: none; } }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div class="card">
+  <h1>Portland Sanborn 1901</h1>
+  <p class="hide-sm">Sanborn Fire Insurance Map of Portland, Oregon, 1901 Vol. 1: 119 sheets georeferenced by hand and warped live from the
+    <a href="https://www.loc.gov/collections/sanborn-maps/">Library of Congress</a> scans with <a href="https://allmaps.org">Allmaps</a>.
+    Click a sheet for its accuracy and links.</p>
+  <div class="row"><label for="op">Map opacity</label><input id="op" type="range" min="0" max="1" step="0.05" value="1"></div>
+  <div class="row"><label><input id="outl" type="checkbox"> Sheet outlines and numbers</label></div>
+  <div class="legend">
+    <span><i style="border-color:var(--one)"></i>one Helmert</span>
+    <span><i style="border-color:var(--blocks)"></i>per-block fit</span>
+    <span><i style="border-color:var(--approx)"></i>approximate inset</span>
+  </div>
+  <div id="status">Loading annotations…</div>
+  <details class="hide-sm"><summary>About</summary>
+    <p style="margin-top:6px">Each sheet, panel and inset has its own Helmert fit to Multnomah County tax lots; downtown sheets where Sanborn drew streets
+      off width use one fit per block. Nothing here is hosted: the page reads <a href="annotations/portland_1901_v1.iiif.json">IIIF Georeference Annotations</a>
+      and fetches the scans from LoC. Data and method: <a href="https://github.com/anthonyblackham/portland-sanborn-1901">GitHub</a>.</p>
+  </details>
+</div>
+<script type="module">
+import * as maplibregl from 'https://cdn.jsdelivr.net/npm/maplibre-gl@6.7.0/+esm'
+import { WarpedMapLayer } from 'https://cdn.jsdelivr.net/npm/@allmaps/maplibre@1.0.0-beta.44/+esm'
+
+const dark = matchMedia('(prefers-color-scheme: dark)').matches
+const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim()
+const map = new maplibregl.Map({
+  container: 'map',
+  style: `https://basemaps.cartocdn.com/gl/${dark ? 'dark-matter' : 'positron'}-gl-style/style.json`,
+  center: [-122.681, 45.521], zoom: 14, maxPitch: 0, attributionControl: { compact: true,
+    customAttribution: 'Sanborn Map Co. 1901, <a href="https://www.loc.gov/collections/sanborn-maps/">Library of Congress</a>; <a href="https://allmaps.org">Allmaps</a>' }
+})
+map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right')
+
+const layer = new WarpedMapLayer()
+const status = document.getElementById('status')
+
+map.on('load', async () => {
+  map.addLayer(layer)
+  try {
+    // The LoC image server rate-limits bursts (HTTP 429). Preloading the 119 image info documents
+    // from iiif-info/all.json spares it 119 requests on every visit.
+    const infos = await (await fetch('iiif-info/all.json')).json()
+    layer.renderer?.warpedMapList?.addImageInfos(infos)
+  } catch (e) { /* the layer fetches each info.json from LoC instead */ }
+  try {
+    await layer.addGeoreferenceAnnotationByUrl('annotations/portland_1901_v1.iiif.json')
+    status.textContent = '119 sheets, 142 sheet and panel fits, 226 block fits'
+  } catch (e) {
+    status.textContent = 'Could not load the annotations: ' + e.message
+  }
+  const sheets = await (await fetch('data/sheets.geojson')).json()
+  for (const f of sheets.features) {
+    const p = f.properties
+    p.kind = p.approximate ? 'approx' : (p.fit.startsWith('per-block') ? 'blocks' : 'one')
+    p.tag = String(p.sheet) + (p.panel || '')
+  }
+  map.addSource('sheets', { type: 'geojson', data: sheets })
+  const color = ['match', ['get', 'kind'], 'approx', css('--approx'), 'blocks', css('--blocks'), css('--one')]
+  map.addLayer({ id: 'sheet-hit', type: 'fill', source: 'sheets', paint: { 'fill-color': '#000', 'fill-opacity': 0 } })
+  map.addLayer({ id: 'sheet-line', type: 'line', source: 'sheets', layout: { visibility: 'none' },
+    paint: { 'line-color': color, 'line-width': 1.6 } })
+  map.addLayer({ id: 'sheet-label', type: 'symbol', source: 'sheets', layout: { visibility: 'none',
+    'text-field': ['get', 'tag'], 'text-size': 12, 'text-font': ['Open Sans Bold'], 'text-allow-overlap': false },
+    paint: { 'text-color': color, 'text-halo-color': css('--panel'), 'text-halo-width': 1.6 } })
+
+  map.on('click', 'sheet-hit', (e) => {
+    const p = e.features[0].properties
+    const ann = new URL(p.annotations, location.href).href
+    const viewer = 'https://viewer.allmaps.org/?url=' + encodeURIComponent(ann)
+    const scan = p.iiif_image + '/full/pct:25/0/default.jpg'
+    const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]))
+    new maplibregl.Popup({ maxWidth: '300px' }).setLngLat(e.lngLat).setHTML(
+      `<div class="pop"><h3>Sheet ${p.sheet}${p.panel ? ' · panel ' + esc(p.panel) : ''}</h3>` +
+      (p.label ? `<div>${esc(p.label)}</div>` : '') +
+      `<div class="meta">${p.points} points · ${esc(p.fit)} · rms ${p.helmert_rms_ft} ft · ${p.ft_per_px} ft/px</div>` +
+      (p.approximate ? `<div class="warn">Approximate: ${esc(p.approximate)}</div>` : '') +
+      `<a href="${viewer}" target="_blank" rel="noopener">Allmaps Viewer</a><a href="${scan}" target="_blank" rel="noopener">Scan (LoC)</a></div>`
+    ).addTo(map)
+  })
+  map.on('mouseenter', 'sheet-hit', () => { map.getCanvas().style.cursor = 'pointer' })
+  map.on('mouseleave', 'sheet-hit', () => { map.getCanvas().style.cursor = '' })
+})
+
+document.getElementById('op').addEventListener('input', (e) => {
+  const v = Number(e.target.value)
+  if (layer.setOpacity) layer.setOpacity(v); else if (layer.setLayerOpacity) layer.setLayerOpacity(v)
+})
+document.getElementById('outl').addEventListener('change', (e) => {
+  const vis = e.target.checked ? 'visible' : 'none'
+  for (const id of ['sheet-line', 'sheet-label']) if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', vis)
+})
+</script>
+</body>
+</html>

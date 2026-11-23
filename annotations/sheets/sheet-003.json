@@ -1,0 +1,1200 @@
+{
+ "type": "AnnotationPage",
+ "@context": "http://www.w3.org/ns/anno.jsonld",
+ "label": "Sanborn Fire Insurance Map from Portland, Oregon, 1901 Vol. 1, sheet 3",
+ "items": [
+  {
+   "id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0003/georef",
+   "type": "Annotation",
+   "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+   ],
+   "label": "Sanborn Fire Insurance Map from Portland, Multnomah County, Oregon. 1901 Vol. 1 | Sheet 3",
+   "created": "2026-11-23T09:54:03Z",
+   "modified": "2026-11-23T09:54:03Z",
+   "motivation": "georeferencing",
+   "target": {
+    "type": "SpecificResource",
+    "source": {
+     "id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0003",
+     "type": "ImageService2",
+     "width": 5869,
+     "height": 8386
+    },
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg><polygon points=\"263.9,4717.6 182.1,6418.3 181.9,6474.5 187.0,6530.5 197.1,6585.9 212.2,6640.0 217.7,6654.3 204.8,6688.4 188.9,6747.7 179.0,6808.3 175.3,6869.5 167.0,7589.7 169.5,7652.5 178.4,7714.6 193.6,7775.6 214.9,7834.6 242.2,7891.2 346.2,8081.5 377.6,8132.7 413.7,8180.6 454.4,8224.8 499.2,8264.7 547.7,8300.1 599.5,8330.6 653.9,8355.8 710.6,8375.7 753.0,8386.0 3484.4,8386.0 4446.4,8380.5 4512.3,8376.6 4577.3,8365.6 4640.8,8347.7 4702.1,8323.1 4797.9,8278.5 5869.0,8258.5 5869.0,0.0 570.8,0.0 531.9,34.1 491.7,76.7 455.8,123.0 424.4,172.5 397.9,224.7 376.5,279.2 360.4,335.6 349.8,393.2 344.7,451.5 265.4,2443.5 177.7,2594.1 150.3,2647.1 128.1,2702.4 111.4,2759.7 100.3,2818.3 95.0,2877.7 95.4,2937.4 101.6,2996.7 113.6,3055.1 131.2,3112.1 163.5,3201.1 122.3,3212.8 65.2,3235.3 10.6,3263.5 0.0,3270.4 0.0,4583.7\" /></svg>"
+    }
+   },
+   "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+     "type": "helmert"
+    },
+    "features": [
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        3158.1,
+        3548.6
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6722525,
+        45.4771699
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        3435.7,
+        4783.1
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6720957,
+        45.4766205
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        707.4,
+        3536.7
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6737619,
+        45.4771813
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        708.5,
+        3166.1
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6737594,
+        45.4773459
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        2797.5,
+        1947.6
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6724816,
+        45.4778845
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        3070.9,
+        3179.4
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6723052,
+        45.4773349
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        718.8,
+        1563.6
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6737483,
+        45.4780588
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        2709.7,
+        1577.8
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6725346,
+        45.4780495
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        2426.5,
+        345.4
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.672711,
+        45.4785991
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        2800.7,
+        351.6
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6724268,
+        45.4785926
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        4021.8,
+        362.5
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6716499,
+        45.4785879
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        4665.0,
+        3187.1
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6712411,
+        45.4773234
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        4750.4,
+        3556.2
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6711954,
+        45.4771609
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        3492.2,
+        5150.6
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6720581,
+        45.4764556
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        702.4,
+        5140.4
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6737729,
+        45.4764684
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        3603.1,
+        6380.6
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6719713,
+        45.4759048
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        3970.6,
+        6381.3
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6716883,
+        45.4759016
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        697.7,
+        6744.5
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6737848,
+        45.4757543
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        3744.2,
+        7978.1
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6718864,
+        45.4751892
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        3638.1,
+        6752.8
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6719443,
+        45.4757399
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        5190.6,
+        6385.7
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6709252,
+        45.4758954
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        4004.1,
+        6754.3
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6716311,
+        45.4757353
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        4630.7,
+        6753.6
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6712503,
+        45.4757323
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        4788.9,
+        6756.3
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6711499,
+        45.4757274
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0003/georef-block0",
+   "type": "Annotation",
+   "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+   ],
+   "label": "Sanborn Fire Insurance Map from Portland, Multnomah County, Oregon. 1901 Vol. 1 | Sheet 3 | block 0",
+   "created": "2026-11-23T09:54:03Z",
+   "modified": "2026-11-23T09:54:03Z",
+   "motivation": "georeferencing",
+   "target": {
+    "type": "SpecificResource",
+    "source": {
+     "id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0003",
+     "type": "ImageService2",
+     "width": 5869,
+     "height": 8386
+    },
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg><polygon points=\"640.3,3526.1 640.0,4772.0 671.7,4824.9 2071.4,4840.0 2148.0,4860.0 2192.6,4840.0 2439.3,4840.0 2480.0,4856.0 2552.7,4840.0 3436.0,4848.0 3488.9,4816.3 3494.8,4740.3 3351.9,4110.4 3366.8,4020.3 3350.4,3977.9 3318.9,3956.5 3303.9,3898.4 3275.9,3774.4 3287.7,3682.1 3261.4,3562.6 3188.3,3491.1 2436.0,3468.0 2116.6,3476.0 2072.0,3456.0 1995.4,3476.0 1758.7,3476.0 1708.0,3448.0 1658.6,3450.6 1625.3,3476.0 892.7,3472.0 852.0,3456.0 677.0,3476.6\" /></svg>"
+    }
+   },
+   "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+     "type": "helmert"
+    },
+    "features": [
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        640.3,
+        3447.7
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6738057,
+        45.4772222
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        640.0,
+        4859.6
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6738181,
+        45.4766092
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        3494.8,
+        4860.3
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6720564,
+        45.4765916
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        3495.1,
+        3448.4
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.672044,
+        45.4772045
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0003/georef-block1",
+   "type": "Annotation",
+   "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+   ],
+   "label": "Sanborn Fire Insurance Map from Portland, Multnomah County, Oregon. 1901 Vol. 1 | Sheet 3 | block 1",
+   "created": "2026-11-23T09:54:03Z",
+   "modified": "2026-11-23T09:54:03Z",
+   "motivation": "georeferencing",
+   "target": {
+    "type": "SpecificResource",
+    "source": {
+     "id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0003",
+     "type": "ImageService2",
+     "width": 5869,
+     "height": 8386
+    },
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg><polygon points=\"661.9,3214.4 694.1,3227.7 1640.1,3236.0 1676.0,3248.0 1743.9,3236.0 2387.3,3236.0 2428.0,3252.0 2500.7,3236.0 3072.0,3244.0 3110.1,3230.4 3131.7,3189.9 3043.5,2740.6 3054.8,2652.3 3038.4,2613.9 3011.3,2595.3 2861.4,1930.6 2838.1,1893.6 2805.9,1880.3 683.7,1871.1 648.0,1928.0 641.2,3179.7\" /></svg>"
+    }
+   },
+   "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+     "type": "helmert"
+    },
+    "features": [
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        3137.4,
+        1881.7
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6722666,
+        45.477907
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        646.9,
+        1870.9
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6738058,
+        45.4779078
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        640.9,
+        3244.3
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6738065,
+        45.4773107
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        3131.4,
+        3255.0
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6722672,
+        45.4773099
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0003/georef-block2",
+   "type": "Annotation",
+   "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+   ],
+   "label": "Sanborn Fire Insurance Map from Portland, Multnomah County, Oregon. 1901 Vol. 1 | Sheet 3 | block 2",
+   "created": "2026-11-23T09:54:03Z",
+   "modified": "2026-11-23T09:54:03Z",
+   "motivation": "georeferencing",
+   "target": {
+    "type": "SpecificResource",
+    "source": {
+     "id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0003",
+     "type": "ImageService2",
+     "width": 5869,
+     "height": 8386
+    },
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg><polygon points=\"683.7,1620.9 751.0,1628.0 792.3,1658.8 853.4,1657.4 886.7,1632.0 991.0,1632.0 1026.6,1661.4 1081.9,1663.7 1130.7,1632.0 1160.0,1632.0 1186.7,1685.9 1260.0,1696.0 1302.4,1678.4 1320.0,1632.5 2708.0,1640.0 2746.1,1626.4 2766.8,1591.7 2756.3,1483.5 2766.8,1396.3 2753.9,1358.7 2719.9,1330.4 2489.4,322.6 2443.7,281.2 691.7,271.1 660.0,324.0 654.6,1585.4\" /></svg>"
+    }
+   },
+   "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+     "type": "helmert"
+    },
+    "features": [
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        660.2,
+        271.0
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6737965,
+        45.4786188
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        654.1,
+        1693.4
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6737953,
+        45.4780024
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        2766.3,
+        1702.4
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6724943,
+        45.4780037
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        2772.4,
+        280.0
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6724956,
+        45.4786201
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0003/georef-block3",
+   "type": "Annotation",
+   "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+   ],
+   "label": "Sanborn Fire Insurance Map from Portland, Multnomah County, Oregon. 1901 Vol. 1 | Sheet 3 | block 3",
+   "created": "2026-11-23T09:54:03Z",
+   "modified": "2026-11-23T09:54:03Z",
+   "motivation": "georeferencing",
+   "target": {
+    "type": "SpecificResource",
+    "source": {
+     "id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0003",
+     "type": "ImageService2",
+     "width": 5869,
+     "height": 8386
+    },
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg><polygon points=\"2761.2,627.7 2777.6,670.1 2808.9,690.0 2840.4,822.4 2825.2,915.7 2838.1,953.3 2880.4,990.4 2980.4,1422.4 2965.2,1511.7 2981.6,1554.1 3015.0,1574.5 3064.1,1785.6 3048.3,1826.1 3053.2,1899.7 3100.9,1950.0 3119.5,2031.9 3105.2,2123.7 3121.6,2162.1 3153.5,2185.0 3196.1,2369.6 3181.2,2459.7 3194.1,2497.3 3232.1,2529.6 3390.1,3213.3 3452.0,3244.0 4664.0,3252.0 4697.3,3241.9 4721.4,3209.4 4723.7,3150.1 4584.3,2527.5 4594.8,2432.3 4547.9,2370.4 4499.9,2158.4 4506.8,2052.3 4463.6,1997.6 4073.9,322.7 4024.0,296.0 2794.1,284.3 2744.6,321.0 2744.4,414.4 2772.1,529.6\" /></svg>"
+    }
+   },
+   "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+     "type": "helmert"
+    },
+    "features": [
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        2685.4,
+        309.4
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6725002,
+        45.4786116
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        3429.5,
+        3536.6
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6720271,
+        45.4771671
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        4777.8,
+        3225.8
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6711693,
+        45.4773061
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        4033.6,
+        -1.5
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6716424,
+        45.4787507
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0003/georef-block4",
+   "type": "Annotation",
+   "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+   ],
+   "label": "Sanborn Fire Insurance Map from Portland, Multnomah County, Oregon. 1901 Vol. 1 | Sheet 3 | block 4",
+   "created": "2026-11-23T09:54:03Z",
+   "modified": "2026-11-23T09:54:03Z",
+   "motivation": "georeferencing",
+   "target": {
+    "type": "SpecificResource",
+    "source": {
+     "id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0003",
+     "type": "ImageService2",
+     "width": 5869,
+     "height": 8386
+    },
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg><polygon points=\"3521.9,3854.7 3579.5,4056.1 3577.2,4139.7 3608.1,4185.6 3772.0,4917.4 3908.6,6407.0 3930.7,6433.9 3964.0,6444.0 4663.0,6439.4 4699.7,6389.9 4724.0,6029.4 4895.7,4465.9 4904.0,4175.9 4931.7,4125.9 4929.4,4062.6 4904.0,4028.1 4902.8,3916.3 4811.4,3533.0 4790.1,3501.6 4752.0,3488.0 4391.9,3488.0 4356.0,3476.0 3985.4,3488.0 3936.0,3468.0 3522.1,3484.3 3485.6,3501.6 3442.6,3562.6 3441.2,3647.7 3464.2,3684.8 3482.6,3785.4\" /></svg>"
+    }
+   },
+   "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+     "type": "helmert"
+    },
+    "features": [
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        3416.6,
+        3502.2
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6720404,
+        45.4771846
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        3935.0,
+        6562.7
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6717108,
+        45.4758208
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        5313.3,
+        6329.2
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6708378,
+        45.4759252
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        4794.9,
+        3268.7
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6711674,
+        45.477289
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0003/georef-block5",
+   "type": "Annotation",
+   "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+   ],
+   "label": "Sanborn Fire Insurance Map from Portland, Multnomah County, Oregon. 1901 Vol. 1 | Sheet 3 | block 5",
+   "created": "2026-11-23T09:54:03Z",
+   "modified": "2026-11-23T09:54:03Z",
+   "motivation": "georeferencing",
+   "target": {
+    "type": "SpecificResource",
+    "source": {
+     "id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0003",
+     "type": "ImageService2",
+     "width": 5869,
+     "height": 8386
+    },
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg><polygon points=\"657.9,6430.4 690.1,6443.7 3621.4,6441.4 3659.4,6407.0 3664.0,6328.0 3608.0,5730.6 3630.8,5687.7 3631.7,5622.1 3595.9,5570.9 3572.0,5330.6 3594.8,5279.7 3593.4,5202.6 3559.5,5164.8 3542.4,5105.9 3496.0,5084.0 2847.9,5084.0 2812.0,5072.0 2744.1,5084.0 2065.0,5080.0 2012.0,5048.0 1962.6,5050.6 1929.3,5076.0 1766.7,5076.0 1716.0,5048.0 1666.6,5050.6 1633.3,5076.0 678.6,5074.6 649.6,5093.9 636.0,5132.0 634.6,6397.4\" /></svg>"
+    }
+   },
+   "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+     "type": "helmert"
+    },
+    "features": [
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        634.6,
+        6443.7
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6738272,
+        45.4758958
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        3664.1,
+        6441.4
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6719434,
+        45.4758855
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        3663.0,
+        5046.5
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6719366,
+        45.4764957
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        633.5,
+        5048.8
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6738204,
+        45.476506
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0003/georef-block6",
+   "type": "Annotation",
+   "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+   ],
+   "label": "Sanborn Fire Insurance Map from Portland, Multnomah County, Oregon. 1901 Vol. 1 | Sheet 3 | block 6",
+   "created": "2026-11-23T09:54:03Z",
+   "modified": "2026-11-23T09:54:03Z",
+   "motivation": "georeferencing",
+   "target": {
+    "type": "SpecificResource",
+    "source": {
+     "id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0003",
+     "type": "ImageService2",
+     "width": 5869,
+     "height": 8386
+    },
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg><polygon points=\"649.9,8026.4 682.1,8039.7 2358.6,8032.0 2694.2,8036.0 2816.0,8056.0 2919.9,8036.0 3767.0,8039.4 3803.4,8003.0 3807.7,7942.1 3699.4,6729.0 3678.1,6697.6 3640.0,6684.0 669.0,6680.6 642.1,6702.7 628.0,6744.0 630.6,7997.4\" /></svg>"
+    }
+   },
+   "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+     "type": "helmert"
+    },
+    "features": [
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        3809.1,
+        6684.2
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6718348,
+        45.4757644
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        628.1,
+        6680.6
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6738306,
+        45.4757834
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        626.5,
+        8053.5
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6738422,
+        45.4751773
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        3807.6,
+        8057.1
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6718464,
+        45.4751584
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0003/georef-block7",
+   "type": "Annotation",
+   "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+   ],
+   "label": "Sanborn Fire Insurance Map from Portland, Multnomah County, Oregon. 1901 Vol. 1 | Sheet 3 | block 7",
+   "created": "2026-11-23T09:54:03Z",
+   "modified": "2026-11-23T09:54:03Z",
+   "motivation": "georeferencing",
+   "target": {
+    "type": "SpecificResource",
+    "source": {
+     "id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd429m:g4294m:g4294pm:g4294pm_g07439190101:07439_01_1901-0003",
+     "type": "ImageService2",
+     "width": 5869,
+     "height": 8386
+    },
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg><polygon points=\"3956.0,6981.4 4060.3,8245.9 4105.9,8322.4 4148.3,8342.8 4240.0,8352.0 5072.0,8348.0 5455.7,8330.8 5513.3,8309.9 5554.4,8270.1 5591.4,8215.0 5609.2,8119.6 5690.4,8066.1 5733.4,7973.4 5760.0,7504.0 5776.0,6345.4 5784.0,6117.4 5804.0,5992.0 5792.0,5846.6 5804.0,5576.0 5783.1,5386.0 5803.7,5237.9 5812.0,4880.0 5799.7,4706.1 5768.0,4546.6 5803.7,4405.9 5804.0,4292.0 5784.0,4122.6 5780.0,3732.0 5744.0,3230.6 5756.0,2748.0 5736.0,2582.6 5743.7,2062.1 5719.4,1973.0 5406.6,1299.2 5347.4,1137.0 5207.6,881.6 5163.4,757.0 5071.6,581.6 4896.0,170.2 4884.9,95.7 4821.3,22.1 4764.2,0.0 4168.2,0.0 4117.6,21.6 4076.0,100.0 4077.2,151.7 4728.1,2985.6 4792.0,3337.4 4836.0,3729.4 4848.0,4186.6 4828.0,4490.6 4784.0,4895.1 4748.3,4962.1 4763.0,5060.1 4732.0,5128.0 4748.0,5226.6 4736.0,5299.1 4696.3,5382.1 4712.0,5503.1 4672.3,5602.1 4692.0,5687.9 4680.0,5826.6 4640.0,5928.0 4660.0,6039.1 4624.3,6126.1 4625.2,6207.7 4648.0,6256.7 4635.5,6688.0 4157.4,6688.0 3988.3,6669.2 3935.7,6687.1 3898.1,6722.7 3880.3,6770.1 3896.6,6903.0\" /></svg>"
+    }
+   },
+   "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+     "type": "helmert"
+    },
+    "features": [
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        5734.1,
+        8395.5
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6705783,
+        45.4750441
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        5977.3,
+        35.3
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.6704852,
+        45.4785827
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        4077.9,
+        -20.0
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.671628,
+        45.4785976
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        3834.6,
+        8340.2
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -122.671721,
+        45.475059
+       ]
+      }
+     }
+    ]
+   }
+  }
+ ]
+}
